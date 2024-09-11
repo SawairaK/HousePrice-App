@@ -13,7 +13,7 @@ This app predicts the **House Price**!
 st.write('---')
 
 # Loads the Boston House Price Dataset
-data = pd.read_csv('E:/house_prediction/BostonHousing.csv')
+data = pd.read_csv('BostonHousing.csv')
 data.isnull().sum()
 data.info()
 X = data.drop(columns=['medv'])  # Features as a DataFrame
